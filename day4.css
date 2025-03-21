@@ -1,0 +1,165 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Основной контент */
+#content {
+    padding: 50px 0;
+}
+
+#content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#content ul li {
+    margin: 10px 0;
+}
+
+/* Галерея фотографий */
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.photo-row .photo {
+    flex: 1;
+    text-align: center;
+}
+
+.photo-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Видео с рефлексией */
+.video-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.video-section h3 {
+    margin-bottom: 20px;
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reflection-text {
+    margin-top: 20px;
+    text-align: left;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reflection-text p {
+    margin: 10px 0;
+}
+
+.reflection-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.reflection-text ul li {
+    margin: 10px 0;
+}
+
+/* Кнопка возврата на главную */
+.back-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-button .btn:hover {
+    background: #ff6600;
+}
+
+/* Подвал */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
